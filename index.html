@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Atropos web component</title>
+  <link rel='stylesheet' href='https://unpkg.com/atropos@1.0.2/atropos.min.css'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+
+  <atropos-component>
+    <!-- main Atropos container (required), add your custom class here -->
+    <div class="atropos">
+      <!-- scale container (required) -->
+      <div class="atropos-scale">
+        <!-- rotate container (required) -->
+        <div class="atropos-rotate">
+          <!-- inner container (required) -->
+          <div class="atropos-inner">
+            <!-- put your custom content here -->
+            <img class="atropos-spacer" src="https://atroposjs.com/images/header/atropos-bg.svg" alt="stars">
+            <img data-atropos-offset="-4.5" src="https://atroposjs.com/images/header/atropos-bg.svg" alt="stars">
+            <img data-atropos-offset="-2.5" src="https://atroposjs.com/images/header/atropos-mountains.svg" alt="mountains">
+            <img data-atropos-offset="0" src="https://atroposjs.com/images/header/atropos-forest-back.svg" alt="forest">
+            <img data-atropos-offset="2" src="https://atroposjs.com/images/header/atropos-forest-mid.svg" alt="forest">
+            <img data-atropos-offset="4" src="https://atroposjs.com/images/header/atropos-forest-front.svg" alt="forest">
+            <img data-atropos-offset="5" src="https://atroposjs.com/images/header/atropos-logo-en.svg" alt="atropos logo">
+            <div data-atropos-offset="6" class="atropos-button-wrap">
+              <a href="https://atroposjs.com/" target="_blank">Get Started</a>
+            </div>
+          </div>
+          <div class="atropos-shadow"></div>
+        </div>
+      </div>
+    </div>
+  </atropos-component>
+  
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/atropos@1.0.2/atropos.min.js'></script><script  src="script.js"></script>
+
+</body>
+</html>
